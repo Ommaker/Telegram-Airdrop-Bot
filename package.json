@@ -1,65 +1,48 @@
-Cyclic is connected to Telegram-Airdrop-Bot
 
-Cyclic will install, build and start as specified by a package.json at the root of the repo. You can optionally specify build options & environment variables for your app by clicking on Advanced below:
 
-Advanced
+  
 
-Detected an issue while scanning
 
- Ommaker/Telegram-Airdrop-Bot 
 
-View Details
 
-Cyclic requires a package.json at the specified root path to determine how to build and run your app.
 
- Ommaker/Telegram-Airdrop-Bot/package.json 
+{
 
-1
+"name": "Telegram-Airdrop-Bot",
 
-A package.json file was not found at /package.json in the repository.
+"version": "1.0.0",
 
-Cyclic runs scripts defined "scripts" section to build, test and run your app.
 
-To fix, try starting with the following example or refer to this sample repo:
+"description": "",
 
- starter-express-api 
+"scripts": {
 
-2{
+"build": "echo \"No build specified\" && exit 1",
 
-3    "name": "Telegram-Airdrop-Bot",
+"test": "echo \"No test specified\" && exit 1",
 
-4    "version": "1.0.0",
+"start": "node index.js"
 
-5    "description": "",
+    },
 
-6    "scripts": {
+    "repository": {
 
-7        "build": "echo \"No build specified\" && exit 1",
+"type": "git",
 
-8        "test": "echo \"No test specified\" && exit 1",
+"url": "git+https://github.com/Ommaker/Telegram-Airdrop-Bot.git"
 
-9        "start": "node index.js"
+    },
 
-10    },
+    "author": "",
 
-11    "repository": {
+    "license": "ISC",
 
-12        "type": "git",
+    "bugs": {
 
-13        "url": "git+https://github.com/Ommaker/Telegram-Airdrop-Bot.git"
+"url": "https://github.com/Ommaker/Telegram-Airdrop-Bot/issues"
 
-14    },
+    },
 
-15    "author": "",
+    "homepage": "https://github.com/Ommaker/Telegram-Airdrop-Bot#readme"
 
-16    "license": "ISC",
-
-17    "bugs": {
-
-18        "url": "https://github.com/Ommaker/Telegram-Airdrop-Bot/issues"
-
-19    },
-
-20    "homepage": "https://github.com/Ommaker/Telegram-Airdrop-Bot#readme"
-
-21}
+}
